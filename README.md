@@ -6,11 +6,13 @@
 ### How to build simple graph?
 Just add 
 " 
-<div class="simpgraph" 
-	 data-sg-type="bar-horizontal-css"
-     data-sg-width="400" data-sg-height="100" 
-     data-sg-value="0.10,0.24,0.52,0.78,0.44,0.98">
-</div>
+ &lt;div
+            class=&quot;simpgraph&quot; 
+            <span class="must">data-sg-type=&quot;bar-horizontal-css&quot;</span><br/>
+            <span class="must">data-sg-width=&quot;400&quot;</span><br/>
+            <span class="must">data-sg-height=&quot;100&quot; </span><br/> 
+            <span class="must">data-sg-value=&quot;0.10,0.24,0.52,0.78,0.44,0.98&quot;</span>&gt;<br/>
+            &lt;/div&gt;
 "
 
 data-sg-type="bar-horizontal-css" --> there are 2 types for now bar => bar-horizontal-css OR bar-vertical-css

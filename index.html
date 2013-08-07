@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+/*
+ * SimpleGraph
+ * 
+ * SimpleGraph is a engine to building graph for web using html syntax easily.
+ * This engine is created using javascript, css, html5 canvas.
+ * 
+ * ---------------------------------------------
+ * author:  Mohd Fakhrullah Mohd Padzil
+ * version: 0.0.1 
+ * ----------------------------------------------
+ * 
+ */
+ 
+ -->
+<html>
+<head>
+    <title>Demo of SimpGraph</title>
+    
+    <link href="SimpGraph/simpgraph.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Demo of SimpGraph (simple graph)</h1>
+    </header>
+    <section class="intro">
+        <p>Once upon a time, I want something.
+            But, to do that having a graph is a good accesories. 
+            I will use graph more but i don't want my time taken to build table,
+            as i am coding html using gedit(notepad). 
+            So I created this SimpGraph, 
+            just a simple engine to read div and its data attribute then build graph.
+        </p>
+    </section>
+    <section class="graph">
+        <div class="simpgraph" data-sg-type="bar-horizontal-css"
+             data-sg-width="400" data-sg-height="100" 
+             data-sg-value="0.10,0.24,0.52,0.78,0.44,0.98">
+        </div>
+        <p>
+            &lt;div
+            <span class="must">class=&quot;simpgraph&quot; </span><br/>
+            <span class="must">data-sg-type=&quot;bar-horizontal-css&quot;</span><br/>
+            <span class="must">data-sg-width=&quot;400&quot;</span><br/>
+            <span class="must">data-sg-height=&quot;100&quot; </span><br/> 
+            <span class="must">data-sg-value=&quot;0.10,0.24,0.52,0.78,0.44,0.98&quot;</span>&gt;<br/>
+            &lt;/div&gt;<br/>
+        </p>
+        
+    </section>
+    
+    <section class="graph">
+        <div class="simpgraph" data-sg-type="bar-vertical-css"
+             data-sg-width="200" data-sg-height="300" 
+             data-sg-value="0.20,0.24,0.42,0.68,0.54,0.83" >
+        </div>
+        <p>
+             &lt;div 
+            <span class="must">class=&quot;simpgraph&quot; </span><br/>
+            <span class="must">data-sg-type=&quot;bar-vertical-css&quot;</span><br/>
+            <span class="must">data-sg-width=&quot;200&quot;</span><br/>
+            <span class="must">data-sg-height=&quot;300&quot; </span><br/> 
+            <span class="must">data-sg-value=&quot;0.20,0.24,0.42,0.68,0.54,0.8&quot;</span>&gt;<br/>
+            &lt;/div&gt;<br/>
+        </p>
+    </section>
+    <script src="SimpGraph/simpgraph.js"></script>
+</body>
+</html>

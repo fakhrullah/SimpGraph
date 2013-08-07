@@ -1,0 +1,36 @@
+/*
+ * SimpleGraph
+ * 
+ * SimpleGraph is a engine to building graph for web using html syntax easily.
+ * This engine is created using javascript, css, html5 canvas.
+ * 
+ * ---------------------------------------------
+ * author:  Mohd Fakhrullah Mohd Padzil
+ * version: 0.0.1 
+ * ----------------------------------------------
+ * 
+ */
+ /*must css*/
+ .simpgraph{
+     /*border: solid 1px red;*/
+     position:relative;
+ }
+ .simpgraph div{
+     margin: 0;
+     padding: 0;
+ }
+ .vbar .bar{
+     display: inline-block;
+ }
+ .graph-wrapper{
+     position: absolute;
+     bottom:0px;
+ }
+ /*reconsider to delete in time*/
+ .simpgraph .bar{
+     margin: 3px 0px;
+     background: #09f38f;
+ }
+ .vbar .bar{
+     margin: 0px 2px;
+ }
